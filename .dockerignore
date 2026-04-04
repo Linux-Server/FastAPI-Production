@@ -1,0 +1,8 @@
+.venv
+.git
+.env
+__pycache__
+*.pyc
+.claude
+production-metrics
+locustfile.py
