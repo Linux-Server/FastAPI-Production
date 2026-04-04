@@ -7,3 +7,7 @@ timeout = 120
 keepalive = 5
 accesslog = "-"
 errorlog = "-"
+
+# Restart workers after N requests to prevent memory leaks
+max_requests = 5000
+max_requests_jitter = 500
